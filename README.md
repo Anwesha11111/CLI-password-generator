@@ -42,16 +42,12 @@ Password length
 Whether to include uppercase, lowercase, numbers, symbols
 
 Example interaction:
-
-text
 Enter password length: 12
 Include uppercase letters? (y/n): y
 Include lowercase letters? (y/n): y
 Include digits? (y/n): y
 Include symbols? (y/n): n
 Generated password: g3JpC2aBsR9k
-File Structure
-
 .gitignore:
 __pycache__/
 *.pyc
