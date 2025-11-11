@@ -43,7 +43,7 @@ venv\Scripts\activate
 source venv/bin/activate
 No further installation needed. All modules used are built-in.
 
-▶️ Usage
+▶️ Usage:
 Run the script, answer prompts for your preferred options, and your secure password will be displayed:
 
 bash
