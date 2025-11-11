@@ -51,14 +51,8 @@ Include digits? (y/n): y
 Include symbols? (y/n): n
 Generated password: g3JpC2aBsR9k
 File Structure
-text
-password-generator/
-│
-├── generate_password.py   # Main script
-├── README.md              # Project documentation
-└── .gitignore             # (optional) Python/IDE/data ignores
-.gitignore 
-text
+
+.gitignore:
 __pycache__/
 *.pyc
 venv/
