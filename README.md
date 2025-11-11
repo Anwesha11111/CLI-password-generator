@@ -16,7 +16,7 @@ Installation
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/password-generator.git
+git clone https://github.com/Anwesha11111/password-generator.git
 Navigate to the project folder:
 
 bash
