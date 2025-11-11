@@ -27,48 +27,55 @@ Python 3 (no third-party dependencies)
 🛠️ Installation
 Clone this repository:
 
-bash
+```bash
 git clone https://github.com/Anwesha11111/password-generator.git
+```
 Navigate to the project folder:
 
-bash
+```bash
 cd password-generator
-(Optional) Set up a virtual environment:
+```
+Set up a virtual environment:
 
-bash
+```bash
 python -m venv venv
 # Activate the venv (Windows)
 venv\Scripts\activate
 # Or activate the venv (macOS/Linux)
 source venv/bin/activate
+```
 No further installation needed. All modules used are built-in.
 
 ▶️ Usage:
 Run the script, answer prompts for your preferred options, and your secure password will be displayed:
 
-bash
+```bash
 python generate_password.py
+```
 Example outputs:
 
-text
+```text
 Enter password length: 14
 Include uppercase letters? (y/n): y
 Include lowercase letters? (y/n): y
 Include digits? (y/n): n
 Include symbols? (y/n): y
 Generated password: W&cT!qkdxApzNe
+```
 💾 File List
-text
+```text
 password-generator/
 ├── generate_password.py   # Main script
 ├── README.md              # Documentation
 └── .gitignore             # Ignore Python cache, venv, etc.
+```
 📂 Sample .gitignore
-text
+```text
 __pycache__/
 *.pyc
 venv/
 .env
+```
 📣 Contribution
 Contributions are welcome! Fork the repo, create a feature branch, and submit a pull request.
 
