@@ -1,19 +1,31 @@
-# CLI-password-generator
-A CLI tool to quickly generate secure passwords with custom options.
 Password Generator
-A command-line password generator written in Python. Quickly generate secure, customizable passwords with options for length, symbols, numbers, and case.
+A command-line password generator written in Python that creates secure, customizable passwords on demand.
 
-Features
-Choose password length
+🚀 Project Overview
+This utility generates random passwords based on user-selected criteria such as length and character type (uppercase, lowercase, digits, symbols). It uses Python's secure secrets module, and is ideal for anyone who needs strong, unique passwords quickly from the terminal.
 
-Include/exclude uppercase, lowercase, digits, and symbols
+✨ Features
+Interactive command-line prompts
 
-Simple and secure (uses Python's secrets module)
+Customizable password length
 
-Outputs password directly to your terminal
+Choice to include/exclude:
 
-Installation
-Clone the repository:
+Uppercase letters
+
+Lowercase letters
+
+Digits
+
+Symbols
+
+Secure randomness (secrets module)
+
+📦 Tech Stack
+Python 3 (no third-party dependencies)
+
+🛠️ Installation
+Clone this repository:
 
 bash
 git clone https://github.com/Anwesha11111/password-generator.git
@@ -21,43 +33,44 @@ Navigate to the project folder:
 
 bash
 cd password-generator
-(Optional) Create a virtual environment:
+(Optional) Set up a virtual environment:
 
 bash
 python -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
-(For small scripts, this is optional, but good practice.)
+# Activate the venv (Windows)
+venv\Scripts\activate
+# Or activate the venv (macOS/Linux)
+source venv/bin/activate
+No further installation needed. All modules used are built-in.
 
-No additional libraries required (uses built-in Python modules)
-
-Usage
-Run the script and follow the prompts:
+▶️ Usage
+Run the script, answer prompts for your preferred options, and your secure password will be displayed:
 
 bash
 python generate_password.py
-You'll be asked for:
+Example outputs:
 
-Password length
-
-Whether to include uppercase, lowercase, numbers, symbols
-
-Example interaction:
-Enter password length: 12
-
+text
+Enter password length: 14
 Include uppercase letters? (y/n): y
-
 Include lowercase letters? (y/n): y
-
-Include digits? (y/n): y
-
-Include symbols? (y/n): n
-
-Generated password: g3JpC2aBsR9k
-
-.gitignore:
+Include digits? (y/n): n
+Include symbols? (y/n): y
+Generated password: W&cT!qkdxApzNe
+💾 File List
+text
+password-generator/
+├── generate_password.py   # Main script
+├── README.md              # Documentation
+└── .gitignore             # Ignore Python cache, venv, etc.
+📂 Sample .gitignore
+text
 __pycache__/
 *.pyc
 venv/
 .env
-License
+📣 Contribution
+Contributions are welcome! Fork the repo, create a feature branch, and submit a pull request.
+
+📜 License
 MIT License
